@@ -6,24 +6,24 @@
 files = main.cpp
 
 # Name of final executable
-name = a
+name = maker
 
 # Source directory
 source = src/
 
 # Build directory
-build = build/
+build = ./
 
 # Compilers and flags
 linux_compiler = clang++
-linux_flags = 
+linux_flags = -g
 
 win_compiler = x86_64-w64-mingw32-g++
 win_flags = -static
 
 # Valid values: windows, linux
 # Note: Both can be used (separate with a space)
-target = windows linux
+target = linux
 
 build: $(target)
 
