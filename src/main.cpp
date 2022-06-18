@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 #include "help_menu.hpp"
 
 int main(int argc, char **argv)

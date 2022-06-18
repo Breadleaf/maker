@@ -3,7 +3,7 @@
 # Github : https://github.com/Breadleaf/maker
 
 # Include all files that end in .c or .cpp
-files = main.cpp
+files = *.cpp
 
 # Name of final executable
 name = maker
