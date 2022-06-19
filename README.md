@@ -1,3 +1,6 @@
 # Maker
 
 Maker is an open source Makefile config tool that allows for speedy Makefile creation.
+
+- [ ] Add print
+- [X] Add help menu

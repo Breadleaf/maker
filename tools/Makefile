@@ -18,8 +18,8 @@ build = ./
 linux_compiler = clang++
 linux_flags = -g
 
-win_compiler = x86_64-w64-mingw32-g++
-win_flags = -static
+win_compiler =
+win_flags =
 
 # Valid values: windows, linux
 # Note: Both can be used (separate with a space)
