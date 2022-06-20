@@ -16,14 +16,14 @@ build = ./
 
 # Compilers and flags
 linux_compiler = clang++
-linux_flags = -g
+linux_flags = -g -Wc++17-extensions -std=c++17
 
 win_compiler = x86_64-w64-mingw32-g++
-win_flags = -static
+win_flags = -static -g -std=gnu++17
 
 # Valid values: windows, linux
 # Note: Both can be used (separate with a space)
-target = linux
+target = linux windows
 
 build: $(target)
 

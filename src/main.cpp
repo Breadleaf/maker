@@ -47,8 +47,8 @@ int main(int argc, char **argv)
 				// runMakeFile();
 				string exec_name = parseMakefileValue("build");
 				exec_name += parseMakefileValue("name");
-				#if defined(_WIN32)
-					exec_name += ".exe"
+				//#if defined(_WIN32)
+				//	exec_name += ".exe"
 				cout << exec_name << endl;
 				break;
 		}

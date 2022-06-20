@@ -20,7 +20,7 @@ namespace files
 	{
 		mode_t permission = 0755;
 		#if defined(_WIN32)
-			_mkdir(name.c_ctr());
+			mkdir(name.c_str());
 		#else
 			mkdir(name.c_str(), permission);
 		#endif
