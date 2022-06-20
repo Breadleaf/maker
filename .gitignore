@@ -2,3 +2,5 @@
 *.exe
 tools/*.out 
 tools/*.exe
+tools/converter/*.out
+tools/converter/*.exe
