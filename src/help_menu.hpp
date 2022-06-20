@@ -5,8 +5,8 @@
 
 namespace help
 {
-	void printHelp()
-	{	
+	void printHelp(int error_code)
+	{
 		using std::cout;
 		using std::endl;
 		cout << "Usage: maker [OPTION]\n";
@@ -16,6 +16,7 @@ namespace help
 		cout << "maker -e -> Run Makefile and execute\n";
 		cout << "maker    -> Run Makefile";
 		cout << endl;
+		exit(error_code);
 	}
 }
 
