@@ -19,6 +19,12 @@ int main()
 			continue;
 		}
 
+		if (c == '"')
+		{
+			printf("\\\"");
+			continue;
+		}
+
 		putchar(c);
 	}
 
